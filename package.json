@@ -1,0 +1,29 @@
+{
+  "name": "unique-object",
+  "version": "1.0.0",
+  "description": "Returns a copy of an Object or Map with duplicate values removed.",
+  "keywords": [
+    "unique",
+    "object",
+    "map",
+    "filter"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/unique-object",
+  "repository": "lamansky/unique-object",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "dependencies": {
+    "unique-map": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "lamansky"
+  }
+}
